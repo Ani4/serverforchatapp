@@ -2,6 +2,7 @@
 
 var WebSocket = require('uws');
 var ws = new WebSocket('ws://localhost:3000');
+
 ws.on('open', function () {
 	console.log("Sucessful connected client 1 to the server.");
 	// send new message from this client to server/
